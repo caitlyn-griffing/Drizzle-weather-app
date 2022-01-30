@@ -16,7 +16,12 @@ $.getJSON("https://type.fit/api/quotes", function(info) {
     // console.log(info);
 
     var randomQuote = info[Math.floor(Math.random()*info.length)];
-    console.log(randomQuote);
-    $('.quotes').text(randomQuote);
+    console.log(getQuote = randomQuote.text + " --- " + randomQuote.author);
+    getQuote = randomQuote.text + " --- " + randomQuote.author;
+
+    
+    $('.quotes').text(getQuote); 
+
 })
 
+$('<button>');
