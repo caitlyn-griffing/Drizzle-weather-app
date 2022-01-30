@@ -1,6 +1,6 @@
 :root {
     /* color palette */
-    --light: #f6f2f8;
+    --light: #f8f7e4fb;
     /* #f6f2f8 is another light yellow color */
     --ltYellow: #fed053;
     --medYellow: #f5b30f;
@@ -28,6 +28,7 @@ body {
     background-size: cover;
     background-position: center;
     color: var(--light);
+    font-weight: bold;
 }
 
 .wrapper {
@@ -61,7 +62,6 @@ h1 {
     background-color: rgba(208,188,142, 0.1);
     border: 5px solid var(--dkYellow);
     font-size: 1.7rem;
-    font-weight: bold;
     padding: 10%;
 }
 
@@ -69,8 +69,9 @@ button {
     margin: 7%;
     padding: 2%;
     background-color: var(--dkblue);
-    border: 2px solid var(--ltYellow);
-    color: var(--dkYellow);
+    border: 3px solid var(--medYellow);
+    color: var(--medYellow);
     font-family: var(--lex);
     font-size: 2rem;
+    font-weight: inherit;
 }
