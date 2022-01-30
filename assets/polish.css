@@ -10,29 +10,28 @@
     --ltGrey: #3b3f46;
     --blue: #1f2b67;
     --dkblue: #12183b;
+    --lex: 'Lexend Exa', sans-serif;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: var(--lex)
 }
 
 body {
+
+    background-color: var(--dkblue);
     background-image: url('./images/Navy-background-gold-dust.png');
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
-    /* height: 100%; */
+    background-position: center;
     color: var(--light);
 }
 
 .wrapper {
     background-color: rgba(0, 0, 204, 0.1);
-    background-size: cover;
-    height: 100vh;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -52,15 +51,26 @@ h1 {
 }
 
 .forecast {
-    padding-bottom: 1%;
+    padding-bottom: 2%;
     font-size: 1.7rem;
 }
 
 .quotes {
     width: 50%;
     height: 50%;
-    background-color: var(--ltYellow);
-    border: 5px solid salmon;
-    font-size: 1.5rem;
-    padding-top: 10%;
+    background-color: rgba(208,188,142, 0.1);
+    border: 5px solid var(--dkYellow);
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10%;
+}
+
+button {
+    margin: 7%;
+    padding: 2%;
+    background-color: var(--dkblue);
+    border: 2px solid var(--ltYellow);
+    color: var(--dkYellow);
+    font-family: var(--lex);
+    font-size: 2rem;
 }

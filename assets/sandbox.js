@@ -24,4 +24,6 @@ $.getJSON("https://type.fit/api/quotes", function(info) {
 
 })
 
-$('<button>');
+$('button').click(function(event) {
+    location.reload();
+})
