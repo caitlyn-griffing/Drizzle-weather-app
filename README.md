@@ -13,11 +13,11 @@
 
 - [Deployed Web Page](https://caitlyn-griffing.github.io/Drizzle-weather-app/)
 
-![screenshot1](assets/images/project1SS.png)
+![screenshot1](./assets/images/project1SS.png)
 
-![screenshot2](assets/images/project1SS2.png)
+![screenshot2](./assets/images/project1SS2.png)
 
-![screenshot3](assets/images/project1SS3.png)
+![screenshot3](./assets/images/project1SS3.png)
 
 ---
 
